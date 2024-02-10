@@ -277,6 +277,9 @@ main .rasmo:hover {
 }
 
 @media (max-width: 1000px) {
+  .katta {
+    margin-right: -100px;
+  }
   .rasm1 {
     display: block;
     width: 400px;
