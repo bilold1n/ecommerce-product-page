@@ -301,7 +301,7 @@ main .rasmo:hover {
     cursor: pointer;
   }
   header {
-    padding-left: 200px;
+    padding-left: 180px;
     display: flex;
     align-items: center;
     justify-content: center;
