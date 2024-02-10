@@ -270,18 +270,25 @@ main {
     display: block;
     width: 400px;
   }
+  .logo {
+    margin-left: 50px;
+  }
+  .imglar {
+    margin-left: -200px;
+  }
   .menu-btn {
     display: block;
     border: none;
     background-color: transparent;
     margin-right: 20px;
+    margin-right: -20px;
   }
 
   .menu-btn:hover {
     cursor: pointer;
   }
   header {
-    margin-right: -100px;
+    padding-left: 200px;
     display: flex;
     align-items: center;
     justify-content: center;
