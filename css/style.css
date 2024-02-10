@@ -1,0 +1,360 @@
+/* kumbh-sans-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Kumbh Sans";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/kumbh-sans-v22-latin-regular.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* kumbh-sans-700 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Kumbh Sans";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/kumbh-sans-v22-latin-700.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+:root {
+  --white: #ffffff;
+  --gray: rgb(149, 151, 165);
+  --black: #000;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #ffffff;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+main {
+  flex-grow: 1;
+}
+
+.katta {
+  display: flex;
+  flex-direction: column;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.container {
+  width: 100%;
+  max-width: 1440px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 80px;
+  padding-left: 80px;
+}
+
+header {
+  position: absolute;
+  background-color: #ffffff;
+  width: 100%;
+}
+header .header-container {
+  display: flex;
+  align-items: center;
+}
+header .ok:hover {
+  cursor: pointer;
+  opacity: 0.5;
+}
+header .nav-list {
+  margin-left: 57px;
+  margin-right: 390px;
+  display: flex;
+}
+header .nav-item {
+  display: flex;
+  align-items: center;
+  margin-right: 33px;
+}
+header .nav-link {
+  color: rgb(105, 112, 125);
+  font-family: Kumbh Sans;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0px;
+}
+header .nav-link:hover {
+  color: #ff7e1b;
+}
+header .imglar {
+  display: flex;
+  gap: 47px;
+}
+
+.line {
+  border: none;
+  position: absolute;
+  width: 1128px;
+  height: 1px;
+  top: 112px;
+  background: rgb(228, 233, 242);
+}
+
+main {
+  margin-top: 135px;
+}
+main .main-img {
+  margin-top: 90px;
+}
+main .main-container {
+  display: flex;
+  gap: 125px;
+  align-items: center;
+}
+main .main-ikkinchi {
+  margin-top: 250px;
+  display: flex;
+  flex-direction: column;
+}
+main .tepa {
+  color: rgb(255, 126, 27);
+  font-family: Kumbh Sans;
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 13px;
+  letter-spacing: 2px;
+  text-align: left;
+  text-transform: uppercase;
+}
+main .main-title {
+  margin-top: 24px;
+  margin-bottom: 32px;
+  color: rgb(29, 32, 38);
+  font-family: Kumbh Sans;
+  font-size: 44px;
+  font-weight: 700;
+  line-height: 48px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+main .main-dack {
+  color: rgb(105, 112, 125);
+  font-family: Kumbh Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0px;
+  text-align: left;
+  width: 445px;
+}
+main .dack-pasi {
+  color: rgb(29, 32, 38);
+  font-family: Kumbh Sans;
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 28px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+main .pasi-border {
+  color: rgb(255, 126, 27);
+  font-family: Kumbh Sans;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 16px;
+  letter-spacing: 0px;
+  text-align: left;
+  border-radius: 50px;
+  border: 1px solid #ff7e1b;
+  background-color: #fae2c3;
+  padding: 7px 11px 7px 8px;
+  width: 51px;
+}
+main .orab-o {
+  margin-top: 28px;
+  margin-bottom: 3px;
+  display: flex;
+  align-items: center;
+  gap: 23px;
+}
+main .del {
+  color: rgb(182, 188, 200);
+  font-family: Kumbh Sans;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 26px;
+  letter-spacing: 0px;
+}
+main .pasi {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+main .qoshuv {
+  display: flex;
+  align-items: center;
+  border: 1px solid;
+  border-radius: 10px;
+  background: rgb(246, 248, 253);
+  display: flex;
+  gap: 35px;
+  width: 157px;
+  padding: 18px 20px;
+  margin-top: 32px;
+}
+main .minus:hover {
+  cursor: pointer;
+}
+main .pilus:hover {
+  cursor: pointer;
+}
+main .nol {
+  color: rgb(29, 32, 38);
+  font-family: Kumbh Sans;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 16px;
+  letter-spacing: 0px;
+  text-align: center;
+}
+main .orab-btn {
+  display: flex;
+  gap: 16px;
+}
+main .btn {
+  margin-top: 32px;
+  padding: 19px 76px 18px 77px;
+  border-radius: 10px;
+  box-shadow: 0px 20px 50px -20px rgb(255, 126, 27);
+  background: rgb(255, 126, 27);
+  display: flex;
+  gap: 16px;
+  border: none;
+}
+main .btn:hover {
+  background: rgb(255, 213, 0);
+  cursor: pointer;
+}
+main .btn-dack {
+  color: rgb(255, 255, 255);
+  font-family: Kumbh Sans;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 16px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+main .main-pasi {
+  display: flex;
+  align-items: center;
+  gap: 31px;
+}
+main .rasmo:hover {
+  cursor: pointer;
+  opacity: 0.5;
+}
+
+.rasm1 {
+  display: none;
+}
+
+.menu-btn {
+  display: none;
+}
+
+@media (max-width: 1000px) {
+  .rasm1 {
+    display: block;
+    width: 400px;
+  }
+  .menu-btn {
+    display: block;
+    border: none;
+    background-color: transparent;
+    margin-right: 20px;
+  }
+  .menu-btn:hover {
+    cursor: pointer;
+  }
+  header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  header .header-container {
+    position: relative;
+  }
+  .navbar {
+    position: absolute;
+    width: 70%;
+    top: 50px;
+    right: 30%;
+    height: 500px;
+    z-index: 5;
+    background-color: #ff7e1b;
+    display: none;
+  }
+  .navbar .nav-list {
+    flex-direction: column;
+  }
+  .active {
+    display: block;
+  }
+  .line {
+    width: 385px;
+  }
+  .imglar {
+    margin-left: 90px;
+    gap: 22px;
+  }
+  .main-img {
+    display: none;
+  }
+  .main-container {
+    flex-direction: column;
+    align-items: center;
+  }
+  .main-ikkinchi {
+    margin-right: -50px;
+  }
+  .rasmo {
+    display: none;
+  }
+  .pasi {
+    flex-direction: column;
+    align-items: center;
+  }
+  .qoshuv {
+    margin-left: 40px;
+  }
+  .tepa {
+    text-align: center;
+    margin-top: -300px;
+  }
+  .lol {
+    display: flex;
+    align-items: center;
+    gap: 98px;
+  }
+  .lol1 {
+    margin-top: 20px;
+  }
+  .btn {
+    margin-left: 50px;
+  }
+
+}/*# sourceMappingURL=style.css.map */
