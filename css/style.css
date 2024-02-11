@@ -276,7 +276,7 @@ main .rasmo:hover {
   display: none;
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 1150px) {
   .katta {
     margin-right: -100px;
   }
@@ -301,7 +301,7 @@ main .rasmo:hover {
     cursor: pointer;
   }
   header {
-    padding-left: 180px;
+    padding-left: 150px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -316,7 +316,8 @@ main .rasmo:hover {
     right: 30%;
     height: 500px;
     z-index: 5;
-    background-color: #ff7e1b;
+    background-color: #ffffff;
+    box-shadow: 15px 16px 16px 9px rgba(34, 60, 80, 0.2);
     display: none;
   }
   .navbar .nav-list {
